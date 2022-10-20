@@ -7,7 +7,7 @@ export const Scroll = ({ start }) => {
   const [isEnd, setEnd] = useState(false);
   useFrame((state) => {
     if (!start) {
-      state.camera.position.z += scroll;
+      state.camera.position.z -= scroll;
     }
     if (state.camera.position.z <= -350) {
       if (!isEnd)

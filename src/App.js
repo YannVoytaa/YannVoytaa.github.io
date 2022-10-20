@@ -115,6 +115,9 @@ function App() {
           rotation: [0, 0, 0],
           far: 500,
         }}
+        gl={{
+          preserveDrawingBuffer: true,
+        }}
       >
         <Color />
         <Stars radius={300} count={50000} />
