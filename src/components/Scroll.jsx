@@ -42,6 +42,12 @@ export const Scroll = ({ start }) => {
     window.addEventListener("wheel", (ev) => {
       setScroll(ev.deltaY * 0.03);
     });
+    window.addEventListener("touchstart", (ev) => {
+      window.addEventListener("touchmove", (ev2) => {
+        const deltaY = ev.touches[0].pageY - ev2.touches[0].pageY;
+        setScroll(deltaY * 0.02);
+      });
+    });
   }, []);
   return null;
 };

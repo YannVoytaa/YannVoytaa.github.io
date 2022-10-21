@@ -268,7 +268,6 @@ function App() {
           color: "white",
           height: "0",
           width: "0",
-          //          backgroundColor: "rgba(255, 255, 255, 0.5)",
           borderLeft: "80vw solid rgba(255, 255, 255, 0.5)",
           borderBottom: "150vh solid transparent",
           margin: 0,
@@ -287,11 +286,18 @@ function App() {
           color: "black",
           height: "25vh",
           textAlign: "left",
-          width: "80vw",
+          width: "calc(100vw - 20vh)",
           fontSize: "1rem",
           display: toDisplay ? "block" : "none",
           opacity: 0,
-          overflowY: "scroll",
+          overflowY:
+            window.innerHeight < 600 || window.innerWidth < 500
+              ? "scroll"
+              : "hidden",
+          overflowX:
+            window.innerHeight < 600 || window.innerWidth < 500
+              ? "scroll"
+              : "hidden",
         }}
         id="title"
       >

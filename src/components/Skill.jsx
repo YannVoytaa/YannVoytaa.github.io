@@ -24,6 +24,14 @@ export const Skill = ({ id, position, rotation, title }) => {
       state.camera.position.z - position[2] > 150
         ? 1000
         : Math.min(position[2], state.camera.position.z - 100);
+
+    let delta = Math.min(0, ref.current.position.z + 320);
+    if (Math.abs(delta) > 50) {
+      ref.current.rotation.y = 0;
+      delta = (delta / Math.abs(delta)) * 50;
+    }
+    const sign = position[0] > 0 ? 1 : -1;
+    ref.current.position.x = position[0] + delta * sign;
   });
   return canvas ? (
     <mesh

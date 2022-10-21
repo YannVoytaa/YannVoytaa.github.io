@@ -24,6 +24,15 @@
     width: 100% !important;
     margin-top: 0px !important;
   }
+  #content {
+    width: 100vw !important;
+  }
+  #triangle {
+    background-color: rgba(255, 255, 255, 0.5);
+    width: 100vw !important;
+    height: 100vh !important;
+    border: 0 !important;
+  }
 }
 @media screen and (max-height: 600px) {
   #back > h1 {
