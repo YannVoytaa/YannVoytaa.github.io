@@ -39,6 +39,9 @@
     margin: 7vh !important;
     font-size: 1rem;
   }
+  #modal {
+    height: 80% !important;
+  }
 }
 
 .App-header {

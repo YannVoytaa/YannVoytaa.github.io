@@ -408,55 +408,55 @@ function App() {
         </div>
       )}
       <SkillDiv id="1">
-        <GrReactjs size={"100vh"} />
+        <GrReactjs size={"100%"} />
       </SkillDiv>
       <SkillDiv id="2">
-        <GrJava size={"100vh"} />
+        <GrJava size={"100%"} />
       </SkillDiv>
       <SkillDiv id="3">
-        <SiScala size={"100vh"} />
+        <SiScala size={"100%"} />
       </SkillDiv>
       <SkillDiv id="4">
-        <SiCplusplus size={"100vh"} />
+        <SiCplusplus size={"100%"} />
       </SkillDiv>
       <SkillDiv id="5">
-        <SiPython size={"100vh"} />
+        <SiPython size={"100%"} />
       </SkillDiv>
       <SkillDiv id="6">
-        <SiJavascript size={"100vh"} />
+        <SiJavascript size={"100%"} />
       </SkillDiv>
       <SkillDiv id="7">
-        <SiTypescript size={"100vh"} />
+        <SiTypescript size={"100%"} />
       </SkillDiv>
       <SkillDiv id="8">
-        <SiRust size={"100vh"} />
+        <SiRust size={"100%"} />
       </SkillDiv>
       <SkillDiv id="9">
-        <SiPuppet size={"100vh"} />
+        <SiPuppet size={"100%"} />
       </SkillDiv>
       <SkillDiv id="10">
-        <SiPostgresql size={"100vh"} />
+        <SiPostgresql size={"100%"} />
       </SkillDiv>
       <SkillDiv id="11">
-        <SiMongodb size={"100vh"} />
+        <SiMongodb size={"100%"} />
       </SkillDiv>
       <SkillDiv id="12">
-        <SiGit size={"100vh"} />
+        <SiGit size={"100%"} />
       </SkillDiv>
       <SkillDiv id="13">
-        <SiJira size={"100vh"} />
+        <SiJira size={"100%"} />
       </SkillDiv>
       <SkillDiv id="14">
-        <SiSlack size={"100vh"} />
+        <SiSlack size={"100%"} />
       </SkillDiv>
       <SkillDiv id="15">
-        <SiAmazonaws size={"100vh"} />
+        <SiAmazonaws size={"100%"} />
       </SkillDiv>
       <SkillDiv id="16">
-        <SiLinux size={"100vh"} />
+        <SiLinux size={"100%"} />
       </SkillDiv>
       <SkillDiv id="17">
-        <SiLatex size={"100vh"} />
+        <SiLatex size={"100%"} />
       </SkillDiv>
       <div
         id="tooltip"

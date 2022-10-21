@@ -37,7 +37,7 @@ export const OIDesc = () => (
       >
         I passed the first stage (10th)
       </a>
-      , then
+      , then{" "}
       <a
         href="https://oi.edu.pl/l/26oi_2etap_wyniki/"
         target="_blank"
@@ -66,7 +66,7 @@ export const OIDesc = () => (
       >
         I passed the first stage (4th)
       </a>
-      , then
+      , then{" "}
       <a
         href="https://oi.edu.pl/l/27oi_2etap_wyniki/"
         target="_blank"
